@@ -1,0 +1,134 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    font-family: sans-serif;
+    background-color: grey;
+    height: 600px;
+    box-sizing: border-box;
+
+}
+
+.row {
+    padding: 10px;
+    /* border: 3px solid white; */
+    height: 200px;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+/* mobile */
+@media only screen and (max-width: 480px) {
+    .nav {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .box1 {
+        width: 100%;
+    }
+
+    .box2 {
+        width: 100%;
+    }
+
+    .box3 {
+        width: 100%;
+    }
+
+    .box4 {
+        width: 100%;
+    }
+}
+
+/* tablet */
+@media only screen and (min-width: 481px) {
+    .nav {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .box1 {
+        width: 50%;
+    }
+
+    .box2 {
+        width: 50%;
+    }
+
+    .box3 {
+        width: 50%;
+    }
+
+    .box4 {
+        width: 100%;
+    }
+}
+
+/* desktop */
+@media only screen and (min-width: 1024px) {
+    .nav {
+        width: 25%;
+        display: inline-block;
+    }
+
+    .content {
+        width: 74%;
+    }
+
+    .box1 {
+        width: 33%;
+    }
+
+    .box2 {
+        width: 33%;
+    }
+
+    .box3 {
+        width: 33%;
+    }
+
+    .box4 {
+        width: 100%;
+    }
+}
+
+.content {
+    background-color: red;
+}
+
+.box1,
+.box2,
+.box3 {
+    min-height: 50px;
+    background-color: yellow;
+}
+
+
+.box4 {
+    background-color: purple;
+    height: 50px;
+}
+
+.header {
+    background-color: green;
+    height: 100px;
+}
+
+.nav {
+    background-color: blue;
+    height: 200px;
+}
